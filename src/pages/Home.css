@@ -1,0 +1,65 @@
+/* Home.css */
+.home-container {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .home-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the primary button */
+  .btn-primary {
+    margin-top: 2rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Style the secondary button */
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #545b62;
+    border-color: #545b62;
+  }
+  
